@@ -133,6 +133,13 @@ ol {
     justify-content: center
 }
 
+.main-wrap{
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../img/hero\ image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .list {}
 
 .header-item {
@@ -363,6 +370,7 @@ img{display: block;}
 }
 
 .footer-paragraph {
+    max-width: 264px;
     padding-bottom: 100px;
     color: #E7E9FC;
     font-family:var(--style-text);
