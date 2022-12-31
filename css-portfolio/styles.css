@@ -129,8 +129,8 @@ a {
 }
 
 .section {
-    margin-top: 96px;
-    margin-bottom: 120px
+    padding-top: 96px;
+    padding-bottom: 120px
 }
 
 .section-list {
