@@ -434,6 +434,11 @@ img {
 }
 
 
+.footer>.container {
+    display: flex;
+    gap: 120px;
+}
+
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -475,23 +480,16 @@ img {
 }
 
 .soc-media {
-    display: flex;
-    justify-content: center;
-    text-align: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .media-soc-list {
     display: flex;
-    text-align: center;
-    justify-content: center;
     gap: 16px;
     margin-top: 16px;
 }
@@ -502,17 +500,14 @@ img {
 }
 
 .media-soc-link {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    fill: #F4F4FD;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #f4f4fd;
 }
 
 .media-soc-link:hover,
