@@ -215,52 +215,44 @@ a {
     color: #404BBF;
 }
 
-.section {}
-
-.section-list {
-    display: flex;
-    flex-wrap: nowrap;
+.benefits {
     padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.feature-link {
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.benefits-list {
+    display: flex;
     gap: 24px;
 }
 
-.section-item {
-    min-width: 264px;
+.benefits-item {
+    width: calc((100% - 72px) / 4);
 }
 
-.section-title3 {
-    margin-bottom: 8px;
-    font-family: var(--style-text);
-    font-style: normal;
-    font-weight: 500;
+.benefits-pre-text {
     font-size: 20px;
-    line-height: 1.2em;
-    color: #2E2F42;
-}
-
-.section-after-title3 {
-    color: var(--header-color);
-    font-family: var(--style-text);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455
-}
-
-.image {}
-
-.image-list {
-    display: flex;
-    justify-content: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-bottom: 8px;
-    background: #F4F4FD;
-    border-radius: 4px;
 }
 
+.benefits-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--caption-color);
+}
 .jobs {
     padding-top: 120px;
     padding-bottom: 120px;
